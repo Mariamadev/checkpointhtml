@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pape ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+h1 {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+.home {
+    color: red;
+}
+.contact{
+    color:red;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.images {
+    display: flex;
+}
+#caroussel{
+    width: 640px;
+    overflow: auto;
+}
