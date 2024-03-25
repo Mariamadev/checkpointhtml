@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 0px;
     padding: 0px;
 }
@@ -31,4 +31,87 @@ body{
 #caroussel{
     width: 640px;
     overflow: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px 300px;
+}
+@font-face {
+    font-family: "chathurabold";
+    src: url("../font/chathura_bold_macroman/chachathura-bold-webfont.eot");
+    font-weight: normal;
+    font-style: normal;
+} */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #333; /* Couleur de fond de la section héros */
+    color: #fff; /* Couleur du texte */
+    height: 100vh; /* Hauteur de la section héros équivalente à la hauteur de l'écran */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem; /* Taille du titre */
+    margin-bottom: 20px; /* Marge en bas du titre */
+}
+
+.hero-content button {
+    padding: 10px 20px; /* Espacement interne du bouton */
+    font-size: 1rem; /* Taille du texte du bouton */
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Supprimer la bordure du bouton */
+    border-radius: 5px; /* Bordure arrondie */
+    transition: background-color 0.3s; /* Transition en cas de survol */
+}
+
+.hero-content button:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton au survol */
 }
